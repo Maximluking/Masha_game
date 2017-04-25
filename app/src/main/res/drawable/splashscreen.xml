@@ -1,0 +1,20 @@
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/flaganim"
+    android:oneshot="true">
+    <item android:drawable="@drawable/file1a" android:duration="275"/>
+    <item android:drawable="@drawable/file1" android:duration="275"/>
+    <item android:drawable="@drawable/file1c" android:duration="275"/>
+    <item android:drawable="@drawable/file2" android:duration="275"/>
+    <item android:drawable="@drawable/file2b" android:duration="275"/>
+    <item android:drawable="@drawable/file3" android:duration="275"/>
+    <item android:drawable="@drawable/file3a" android:duration="275"/>
+    <item android:drawable="@drawable/file4" android:duration="275"/>
+    <item android:drawable="@drawable/file4a" android:duration="275"/>
+    <item android:drawable="@drawable/file5" android:duration="275"/>
+    <item android:drawable="@drawable/file5a" android:duration="275"/>
+    <item android:drawable="@drawable/file6" android:duration="275"/>
+    <item android:drawable="@drawable/file6a" android:duration="275"/>
+    <item android:drawable="@drawable/file7" android:duration="275"/>
+    <item android:drawable="@drawable/file12b" android:duration="275"/>
+</animation-list>

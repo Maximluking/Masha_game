@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/stage1">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/ram"
+                android:background="@drawable/rounded"
+                android:layout_width="78dp"
+                android:padding="5dp"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/ram"
+                app:srcCompat="@drawable/ram"/>
+
+            <ImageButton
+                android:id="@+id/parrot"
+                android:background="@drawable/rounded"
+                android:layout_width="78dp"
+                android:layout_height="250dp"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/parrot"
+                app:srcCompat="@drawable/parrot" />
+
+            <ImageButton
+                android:id="@+id/penguin"
+                android:background="@drawable/rounded"
+                android:layout_width="78dp"
+                android:layout_height="250dp"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/penguin"
+                app:srcCompat="@drawable/penguin" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/hen"
+                android:background="@drawable/rounded"
+                android:layout_width="78dp"
+                android:layout_height="250dp"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/hen"
+                app:srcCompat="@drawable/hen" />
+
+            <ImageButton
+                android:id="@+id/squirrel"
+                android:background="@drawable/rounded"
+                android:layout_width="78dp"
+                android:layout_height="250dp"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/squirrel"
+                app:srcCompat="@drawable/squirrel" />
+
+            <ImageButton
+                android:id="@+id/hippo"
+                android:background="@drawable/rounded"
+                android:layout_width="78dp"
+                android:layout_height="250dp"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/hippo"
+                app:srcCompat="@drawable/hippo" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/cow"
+                android:background="@drawable/rounded"
+                android:layout_width="78dp"
+                android:layout_height="250dp"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/cow"
+                app:srcCompat="@drawable/cow" />
+
+            <ImageButton
+                android:id="@+id/lion"
+                android:background="@drawable/rounded"
+                android:layout_width="80dp"
+                android:layout_height="250dp"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/lion"
+                app:srcCompat="@drawable/lion" />
+
+            <ImageButton
+                android:id="@+id/kangaroo"
+                android:background="@drawable/rounded"
+                android:layout_width="78dp"
+                android:layout_height="250dp"
+                android:padding="5dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/kangaroo"
+                app:srcCompat="@drawable/kangaroo" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

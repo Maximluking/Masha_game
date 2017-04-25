@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/stage1">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/golub"
+                android:layout_width="50dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/golub"
+                app:srcCompat="@drawable/golub" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/gus"
+                android:layout_width="50dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gus"
+                app:srcCompat="@drawable/gus" />
+
+            <ImageButton
+                android:id="@+id/hamel"
+                android:layout_width="50dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hamel"
+                app:srcCompat="@drawable/hamel" />
+
+            <ImageButton
+                android:id="@+id/ejik"
+                android:layout_width="50dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ejik"
+                app:srcCompat="@drawable/ejik" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageButton
+                android:id="@+id/nosor"
+                android:layout_width="50dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/nosor"
+                app:srcCompat="@drawable/nosor" />
+
+            <ImageButton
+                android:id="@+id/kon"
+                android:layout_width="50dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kon"
+                app:srcCompat="@drawable/kon" />
+
+            <ImageButton
+                android:id="@+id/hruk"
+                android:layout_width="50dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hruk"
+                app:srcCompat="@drawable/hruk" />
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
