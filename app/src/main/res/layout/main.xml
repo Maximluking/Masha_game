@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@color/backGrounfMain">
+    <ImageButton
+        android:layout_centerInParent="true"
+        android:src="@drawable/but1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"/>
+    <TextView
+        android:id="@+id/go"
+        android:paddingBottom="20dp"
+        android:textSize="110sp"
+        android:typeface="serif"
+        android:text="@string/textGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
